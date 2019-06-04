@@ -1,0 +1,27 @@
+{
+  "name": "apple-idp-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzalaz/apple-idp-poc.git"
+  },
+  "author": "hzalaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzalaz/apple-idp-poc/issues"
+  },
+  "homepage": "https://github.com/hzalaz/apple-idp-poc#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.0",
+    "passport-oauth": "^1.0.0"
+  }
+}
